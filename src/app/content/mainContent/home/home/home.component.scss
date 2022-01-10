@@ -1,0 +1,14 @@
+#block-1 {
+    p{
+        height: 24px;
+        display:table;
+        svg{
+            margin-left: 12px;
+            margin-right: 6px;
+        }
+        span{
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+}

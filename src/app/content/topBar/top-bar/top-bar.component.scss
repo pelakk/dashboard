@@ -1,0 +1,17 @@
+input {
+    border: none;
+    background: none;
+    font-size: 16px;
+    width: 50%;
+    &::placeholder{
+        color: #334D6E;
+    }
+    &:focus, &:active {
+        outline: none;
+        border: none;
+        &::placeholder{
+            color: transparent;
+
+        }
+    }
+}
